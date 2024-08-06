@@ -1,6 +1,6 @@
-const breakfastMenu = ['Pancakes', 'Eggs Benedict', 'Oatmeal', 'Frittata'];
-const mainCourseMenu = ['Steak', 'Pasta', 'Burger', 'Salmon'];
-const dessertMenu = ['Cake', 'Ice Cream', 'Pudding', 'Fruit Salad'];
+const breakfastMenu = ['Idli- ₹10', 'Egg omelette- ₹10', 'Dosa- ₹10', 'Vada- ₹8'];
+const mainCourseMenu = ['Meals- ₹80', 'Veg Biryani- ₹100', 'Chicken Biryani- ₹120', 'Pulao- ₹70'];
+const dessertMenu = ['Cake- ₹60', 'Ice Cream- ₹40', 'Payasam- ₹50', 'Fruit Salad- ₹70'];
 
 // Display breakfast menu items
 const breakfastMenuItemsHTML = breakfastMenu.map((item, index) => `<p>Item ${index + 1}: ${item}</p>`).join('');
