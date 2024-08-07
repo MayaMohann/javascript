@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ToDo List</title>
-<script src="./todoList.js"></script>
+    <title>ToDo List</title>
+    <script defer src="./todoList.js"></script> <!-- Use 'defer' to ensure the script loads after the HTML -->
 </head>
 <body>
-<h1>ToDo List</h1>
-<input type="text" id="taskInput" placeholder="Add a new task">
-<button id="addTaskBtn">Add Task</button>
+    <h1>ToDo List</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add Task</button>
 
-<!-- <input type="text" id="searchInput" placeholder="Search..."> -->
-<ul id="taskList">
-    <!-- Tasks will be displayed here -->
-</ul>
+    <ul id="taskList">
+        <!-- Tasks will be displayed here -->
+    </ul>
 
-<button id="clearCompletedBtn">Clear Completed</button>
-
+    <button id="clearCompletedBtn">Clear Completed</button>
 </body>
 </html>
